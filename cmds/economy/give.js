@@ -62,7 +62,7 @@ module.exports = class AddCommand extends Commando.Command {
     .setAuthor(message.author.tag, message.author.displayAvatarURL({ dynamic: true, format: `png` }))
     .setColor(`GREEN`)
     .setTitle(`You have given ${name} $` + new Intl.NumberFormat().format(coinsToGive) + `!`)
-	.addFields(
+	  .addFields(
         { name: 'Your Balance', value: `$` + new Intl.NumberFormat().format(remainingCoins), inline: true  },
         { name: 'Their Balance', value: `$` + new Intl.NumberFormat().format(newBalance), inline: true },
 	)

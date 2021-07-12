@@ -46,7 +46,7 @@ module.exports = class AddCommand extends Commando.Command {
     if (message.member.roles.cache.some(role => role.name === `${RequiredRole}`) || HasRequiredPerms == true || Owner == true) {
         RunCommand()
     } else {
-       message.reply(`You need one of the following  ***${RequiredRole}*** role(s)!`)
+       message.reply(`You need one of the following ***${RequiredRole}*** role(s)!`)
     }
    
 
