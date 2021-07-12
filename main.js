@@ -7,6 +7,7 @@ const client = new Commando.CommandoClient({
   owner: ['163396331585536010', '271437356450578442'],
   commandPrefix: config.prefix,
 })
+"test"
 client.config = config
 const { GiveawaysManager } = require('discord-giveaways');
 
