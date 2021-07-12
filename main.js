@@ -43,26 +43,3 @@ client.on('ready', async () => {
 })
 
 client.login(config.token)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//client.login("NzkxNzk4NzYxMDIwOTgxMjg5.X-UaDw.h_mbThqJ9JC6HJI4SnwmEcgFIOE")
